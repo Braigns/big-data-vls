@@ -84,7 +84,8 @@ Launch a EMR cluster 5.30.1 with Hadoop, Spark, Hive, Tez and Ganglia  in eu-cen
 1.6 Output needs to be in parquet gzip/snappy compressed format
 1.7 So in the end we’ll have something like below format
 s3://bucket/output/country=IN/result
-![1.7](https://github.com/rubyumeshc/big-data-vls/blob/master/day-3/1.png "output")
+
+![1.png](resources/1.png)
  
 s3://bucket/output/country=SA/result
  
