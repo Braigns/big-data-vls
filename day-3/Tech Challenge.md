@@ -75,13 +75,21 @@ Launch a EMR cluster 5.30.1 with Hadoop, Spark, Hive, Tez and Ganglia  in eu-cen
 
 
 ### Problem statement:
+
 1.1 It needs to be partitioned by country
+
 1.2 We can only have one output file in each partition.
+
 1.3 You only need to put IN and SA in there (Only need to consider India and South Africa)
+
     1.3.1 IN – country code for India
+    
     1.3.2 SA – Country code for South Africa
+    
 1.4 Output needs to be written to  in your s3 bucket.
+
 1.6 Output needs to be in parquet gzip/snappy compressed format
+
 1.7 So in the end we’ll have something like below format
 s3://bucket/output/country=IN/result
 
